@@ -17,7 +17,8 @@ SOURCES += main.cpp\
     server.cpp \
     connectedclient.cpp \
     screenshot.cpp \
-    vserverview.cpp
+    vserverview.cpp \
+    commandexecuter.cpp
 
 HEADERS  += \
     error.h \
@@ -26,6 +27,7 @@ HEADERS  += \
     connectedclient.h \
     Constants.h \
     screenshot.h \
-    vserverview.h
+    vserverview.h \
+    commandexecuter.h
 
 FORMS    +=

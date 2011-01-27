@@ -26,6 +26,7 @@
 #include <QTimer>
 #include <QDataStream>
 #include "screenshot.h"
+#include "commandexecuter.h"
 
 
 class ConnectedClient : public QObject{

@@ -199,7 +199,7 @@ void ConnectedClient::receiveData(){
            }case Constants::COMMANDEXEC:{
                if(receiveString()==NULL)
                    break;
-               executeCommand(data);
+               CommandExecuter::executeCommand(data);
                type =Constants::NOTYPE;
                break;
            }
